@@ -11,17 +11,17 @@ menu_string: .asciiz "\nSelecione uma opcao:\n1. Codificacao\n2. Decodificacao\n
 menu_cod: .asciiz "\nSelecione um arquivo:\n1. data1.txt\n2. data2.txt\n3. data3.txt\n4. data4.txt\n5. Retornar ao menu principal\n\nOpcao: "
 menu_decod: .asciiz "\nSelecione um arquivo:\n1. data1.rle\n2. data2.rle\n3. data3.rle\n4. data4.rle\n5. Retornar ao menu principal\n\nOpcao: "
 msg_invalida: .asciiz "\n\nOpcao invalida. Digite uma opcao do menu!\n"
-data1c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data1.rle"	# arquivos codificados data1.rle
-data2c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data2.rle"	# data2.rle
-data3c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data3.rle"	# data3.rle
-data4c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data4.rle"	# data4.rle
-data1d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data1d.txt"	# arquivos decodificados data1d.txt
-data2d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data2d.txt"	# data2d.txt
-data3d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data3d.txt"	# data3d.txt
-data4d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/Trabalho1/OAC22017/data4d.txt"	# data4d.txt
+data1c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data1.rle"	# arquivos codificados data1.rle
+data2c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data2.rle"	# data2.rle
+data3c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data3.rle"	# data3.rle
+data4c: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data4.rle"	# data4.rle
+data1d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data1d.txt"	# arquivos decodificados data1d.txt
+data2d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data2d.txt"	# data2d.txt
+data3d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data3d.txt"	# data3d.txt
+data4d: .asciiz "C:/Users/Danielle/Documents/Engenharia Mecatrônica/Semestre 7/Organização e Arquitetura de Computadores/OAC_T1/OAC-2-2017-Trab-1-Completo/data4d.txt"	# data4d.txt
 data1o: .asciiz "data1.txt"	# arquivos originais
 data2o: .asciiz "data2.txt"
-data3o: .asciiz "data3.txt"
+data3o: .asciiz "data3.txt" 
 data4o: .asciiz "data4.txt"
 buffer0:   .space 1
 buffer1:   .space 1
